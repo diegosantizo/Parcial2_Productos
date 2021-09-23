@@ -123,14 +123,14 @@
             precio_costo = target.parent("tr").find("td").eq(3).html();
             precio_venta = target.parent("tr").find("td").eq(4).html();
             existencia = target.parent("tr").find("td").eq(5).html();
-            $("#txt_id").val(idProducto);
+            $("#txt_id").val(id);
             $("#txt_producto").val(producto);
-            $("#drop_marcas").val(marca);
+            $("#drop_marcas").val(idm);
             $("#txt_descripcion").val(Descripcion);
             $("#txt_costo").val(precio_costo);
             $("#txt_venta").val(precio_venta);
             $("#txt_existencia").val(existencia);
-            $("#modal_Productos").modal('show');
+            $("#modal_productos").modal('show');
         });
     </script>
 </body>
